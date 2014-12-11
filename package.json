@@ -1,0 +1,31 @@
+{
+  "name": "mogy-xmlrpc",
+  "version": "0.1.0",
+  "description": "XML-RPC activity module for Mogy",
+  "main": "mogy-xmlrpc.js",
+  "author": {
+      "name": "Eric Abouaf",
+      "email": "eric.abouaf@gmail.com"
+  },
+  "keywords": [
+      "mogy-activity",
+      "xmlrpc"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/neyric/mogy-xmlrpc.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "xmlrpc": "^1.2.0"
+  },
+  "activities": {
+    "xmlrpc": {
+        "defaultTaskHeartbeatTimeout": "NONE",
+        "defaultTaskScheduleToCloseTimeout": "NONE",
+        "defaultTaskScheduleToStartTimeout": "NONE",
+        "defaultTaskStartToCloseTimeout": "NONE",
+        "description": "Send a XML-RPC request"
+    }
+  }
+}
